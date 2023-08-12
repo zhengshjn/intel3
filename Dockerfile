@@ -32,6 +32,6 @@ RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8900 ' >>/Qwer@123456
 
 RUN chmod 755 /Qwer@1234567890.sh
 
-EXPOSE 12350
+EXPOSE 8900
 
 CMD  /Qwer@1234567890.sh
